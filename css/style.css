@@ -60,7 +60,7 @@ h5 a:hover {
 #header h1 {
   float: left;
   padding-left: 40px;
-  background: url(../images/logo.png) 0 15px no-repeat;
+  /*background: url(../images/logo.png) 0 15px no-repeat;*/
   color: #ffffff;
 }
 #header h1 a {
@@ -333,6 +333,12 @@ p {
   line-height: 36px;
   text-align: center;
   margin: 0 auto;
+}
+.list {
+  list-style-type: disc;
+}
+.photo_desc{
+  text-align: center;
 }
 @media only screen and (max-width: 979px) {
   h2 {
